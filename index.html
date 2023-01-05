@@ -1,0 +1,69 @@
+<!-- This is an HTML file that defines the structure of a basic calculator web page.  -->
+
+<!-- The page includes a form with two input fields for numbers and a dropdown menu for selecting a mathematical operation, and a button for submitting the form.  -->
+
+<!-- The page also links to a stylesheet and a script file.  -->
+
+<!-- The DOCTYPE declaration at the top of the file specifies that the document is an HTML5 document.  -->
+
+<!-- The lang attribute on the html element specifies that the page is in English. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- The head element includes a title for the page, as well as metadata about the page, such as the character encoding and the viewport.  -->
+
+<head>
+    <title><Basic-Calculator</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+</head>
+
+<!-- The body element contains the form for the calculator, as well as a link to a script file that will handle the calculations. -->
+
+<body>
+
+<!-- This is an HTML form element that contains elements for inputting numbers, selecting a mathematical operation, and submitting the form. -->
+
+<!-- The form element has an id attribute with a value of "calculator". -->
+
+<!-- The first input element has a type attribute with a value of "number" and an id attribute with a value of "num1". It also has a placeholder attribute with a value of "Enter a number". This input field is for entering the first number for the calculation. -->
+
+<!-- The second input element has the same attributes as the first, with the exception of the id attribute, which has a value of "num2". This input field is for entering the second number for the calculation. -->
+
+<!-- The select element has an id attribute with a value of "operation". It contains several option elements, each with a value attribute that corresponds to a mathematical operation and some text content that represents the operation symbol. -->
+
+<!-- The button element has a type attribute with a value of "submit" and some text content that reads "Calculate".  -->
+
+<!-- When the form is submitted, the calculator will perform the selected operation on the two inputted numbers. --> 
+
+    <form id="calculator">
+        <input type="number" id="num1" placeholder="Enter a number">
+        <input type="number" id="num2" placeholder="Enter another number">
+        <select id="operation">
+          <option value="add">+</option>
+          <option value="subtract">-</option>
+          <option value="multiply">*</option>
+          <option value="divide">/</option>
+        </select>
+        <button type="submit">Calculate</button>
+      </form>
+     
+<!-- This is an HTML script element that is used to include a script in an HTML document.  -->
+
+<!-- The script element has a type attribute that specifies the type of script being used.  -->
+
+<!-- In this case, the type is "text/javascript", which indicates that the script is written in JavaScript.  -->
+
+<!-- The src attribute specifies the location of the script file. In this case, the script file is called "script.js" and it is located in the same directory as the HTML file.  --> 
+
+<!-- When the HTML file is loaded, the browser will retrieve and execute the script file. --> 
+      
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
